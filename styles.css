@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h1{
+    text-align: center;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .ing {
+    width:  500px;
+    height: 300px;
+}
+
+body {background-color: #e3e0cf;}
+
+.rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+
+  body {
+    font-family: Verdana, sans-serif;
+  }
